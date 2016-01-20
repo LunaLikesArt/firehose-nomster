@@ -36,6 +36,10 @@ gem 'sprockets', '2.11.0'
 # Use SCSS for stylesheets
 gem 'sass-rails'
 
+gem 'will_paginate', '~> 3.0.6'
+
+gem 'simple_form'
+
 
 
 # Use ActiveModel has_secure_password
