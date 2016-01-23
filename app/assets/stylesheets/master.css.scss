@@ -2,6 +2,7 @@
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
   -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
   box-shadow: 1px 1px 2px 0 #d0d0d0;
+  opacity:0.85;
   background: #fff;
   border: 1px solid #ccc;
   border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
@@ -18,43 +19,40 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-	background: url('/assets/background.jpg');
+	background: url('/assets/vintage.gif');
 	font-family: 'Raleway', sans-serif;
 }
 
 .navbar.navbar-inverse {
-	background:url('/assets/zwartevilt.png');
+  background-color: #2E2E2E;
+  opacity:0.97;
 	border-radius: 0;
 	box-shadow: 0px 1px 3px #2a2a2a;
 	font-family: 'Raleway', sans-serif;
 }
 
-
 .navbar-inverse .navbar-brand {
-  color: #919999;
-	font-family: 'Amatic SC', cursive;
-	font-size:25px;
+	font-family: 'Raleway', sans-serif;
+	font-size:17px;
 }
 
 
 .l-pagination {
   background: #fff;
+  opacity:0.85;
   border: 1px solid #e5e5e5;
   text-align: center;
   cursor: default;
   margin-top:10px;
 }
- 
 
 .l-pagination a, .l-pagination span {
     padding: 0.2em 0.3em; 
 }
 
-
 .l-pagination .disabled {
     color: #aaaaaa; 
 }
-
 
 .l-pagination .current {
     font-style: normal;
@@ -70,13 +68,17 @@ body {
     text-shadow: rgba(255, 255, 255, 0.8) 1px 1px 1px; 
 }
 
-
 .l-pagination a {
     text-decoration: none;
     color: black; 
 }
 
-
 .l-pagination a:hover, .l-pagination a:focus {
       text-decoration: underline; 
+}
+
+.field_with_errors {
+  color: #ff3333;
+  border-radius: 3px;
+  padding:8px;
 }
