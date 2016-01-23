@@ -40,10 +40,15 @@ body {
 .l-pagination {
   background: #fff;
   opacity:0.85;
-  border: 1px solid #e5e5e5;
   text-align: center;
   cursor: default;
   margin-top:10px;
+  margin-bottom:10px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;  
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+
 }
 
 .l-pagination a, .l-pagination span {
