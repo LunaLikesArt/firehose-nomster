@@ -46,7 +46,7 @@
 
 
 <!-- Comment Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="false">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -93,7 +93,7 @@
 
 
   <!-- Photo Modal -->
-  <div class="modal fade" id="myPhoto" tabindex="-1" role="dialog" aria-labelledby="myPhotoLabel" aria-hidden="true">
+  <div class="modal fade" id="myPhoto" tabindex="-1" role="dialog" aria-labelledby="myPhotoLabel" aria-hidden="true" data-backdrop="false">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -117,6 +117,7 @@
 
 <h1 class="pull-left">Photos</h1>
   <div class="clear"></div>
+  <br />
     <% @place.photos.each do |photo| %>
       <% if photo.present? %>
         <b><%= image_tag photo.picture, :class => 'img-responsive'%></b> 
