@@ -84,7 +84,7 @@
         <b><%= comment.humanized_rating %></b> -
       <% end %>
       <%= comment.message %>
-      <small><%= place.comments.last.user.email.split('@')[0] %></small>
+      <small><%= comment.user.email.split('@')[0] %></small>
     </blockquote>
   </div>
 <% end %>
